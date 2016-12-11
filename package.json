@@ -1,6 +1,6 @@
 {
   "name": "localize-country-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically set a country dropdown or select to be the users country based on their IP address.",
   "main": "localizeCountrySelect.js",
   "scripts": {
