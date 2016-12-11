@@ -1,0 +1,6 @@
+{
+  "name": "Localize Country select jquery plugin",
+  "tagline": "Automatically localize a country select box dropdown to the users country",
+  "body": "### Localize Country select.\r\nWhen showing a dropdown box on a form you can improve your user experience by preselecting the users country based on their IP addresss. This is a jquery plugin that allows you to do just that.\r\n\r\n![View the demo here](https://cdn.rawgit.com/tenfef/localizeCountrySelect/master/index.html)\r\n\r\nSimply include the JS file\r\n```html\r\n<script src=\"localizeCountrySelect.js\"></script>\r\n```\r\n\r\nThen run the jquery extension on your select box\r\n```js\r\n$('#country_select').countryLocalizeSelect();\r\n```\r\n\r\n\r\n### More location based needs?\r\nCheck out IP Find [here](https://ipfind.co) and their [API documentation here](https://ipfind.co/docs)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
