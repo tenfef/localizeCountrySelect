@@ -1,0 +1,28 @@
+{
+  "name": "localize-country-select",
+  "version": "1.0.0",
+  "description": "Automatically set a country dropdown or select to be the users country based on their IP address.",
+  "main": "localizeCountrySelect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenfef/localizeCountrySelect.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ip",
+    "address",
+    "ipaddress",
+    "localization",
+    "country",
+    "dropdown"
+  ],
+  "author": "Jordan Clist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenfef/localizeCountrySelect/issues"
+  },
+  "homepage": "https://github.com/tenfef/localizeCountrySelect#readme"
+}
