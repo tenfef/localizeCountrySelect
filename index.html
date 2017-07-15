@@ -31,7 +31,7 @@
 
 <p>Then run the jquery extension on your select box</p>
 
-<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>#country_select<span class="pl-pds">'</span></span>).<span class="pl-en">countryLocalizeSelect</span>();</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>#country_select<span class="pl-pds">'</span></span>).<span class="pl-en">countryLocalizeSelect</span>(authKey);</pre></div>
 
 <h3>
 <a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h3>
@@ -535,7 +535,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="localizeCountrySelect.js"></script>
     <script>
-    $('#country_select').countryLocalizeSelect();
+    $('#country_select').countryLocalizeSelect("b4ba23ed-e771-456c-888a-f355bcd7186e");
     </script>
   
   </body>
