@@ -16,7 +16,7 @@
     	<h1>Localized Country Select Demo</h1>
     	<p>Below is a drop down or select box with every country in the world. Using the jQuery extension which will automatically set the country to be the country of the user based on their IP address.</p>
 
-    	<pre style="background: #eee;padding:5px 15px;display: inline-block;">$('#country_select').countryLocalizeSelect();</pre>
+    	<pre style="background: #eee;padding:5px 15px;display: inline-block;">$('#country_select').countryLocalizeSelect(authKey);</pre>
 
     	<p>Click view Source to see how it works</p>
 
@@ -268,7 +268,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="localizeCountrySelect.js"></script>
     <script>
-		$('#country_select').countryLocalizeSelect();
+		$('#country_select').countryLocalizeSelect("b4ba23ed-e771-456c-888a-f355bcd7186e");
     </script>
     
   </body>
