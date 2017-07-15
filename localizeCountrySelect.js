@@ -1,8 +1,10 @@
-$.countryLocalizeSelect = jQuery.fn.countryLocalizeSelect = function () {
+$.countryLocalizeSelect = jQuery.fn.countryLocalizeSelect = function (authKey) {
 	var $elems = this;
 
 	var country = null;
-	var authKey = null; // please sign up for a free IP Find account to add this
+	if (! authKey){
+	    console.warn("No auth key provided. please sign up for a free IP Find account at https://ipfind.co");
+	}
 
 	$.ajax({
 	  	dataType: "json",
