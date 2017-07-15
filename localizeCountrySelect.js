@@ -6,7 +6,7 @@ $.countryLocalizeSelect = jQuery.fn.countryLocalizeSelect = function () {
 
 	$.ajax({
 	  	dataType: "json",
-	  	url: 'https://ipfind.co/me?auth=' + authKey',
+	  	url: 'https://ipfind.co/me?auth=' + authKey,
 	  	success: function(data){
     		if (data.country){
     			$elems.each(function(){
